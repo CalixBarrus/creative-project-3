@@ -1,6 +1,7 @@
 let animals = [
 
   {
+    id: 1,
     species: "cow",
     name: "Bessie",
     "fav-activity": "Eating grass",
@@ -12,6 +13,7 @@ let animals = [
   },
 
   {
+    id: 2,
     species: "chicken",
     name: "Rocky",
     "fav-activity": "Cross-country",
@@ -23,6 +25,7 @@ let animals = [
   },
 
   {
+    id: 3,
     species: "sheep",
     name: "Shawn",
     "fav-activity": "Exploring the moon",
@@ -34,6 +37,7 @@ let animals = [
   },
 
   {
+    id: 4,
     species: "horse",
     name: "Shadowfax",
     "fav-activity": "Killing orcs",
@@ -45,6 +49,7 @@ let animals = [
   },
 
   {
+    id: 5,
     species: "pig",
     name: "Babe",
     "fav-activity": "Baseball",
@@ -56,6 +61,7 @@ let animals = [
   },
 
   {
+    id: 6,
     species: "dog",
     name: "Zelda",
     "fav-activity": "Being cute",
@@ -67,6 +73,7 @@ let animals = [
   },
 
   {
+    id: 7,
     species: "cat",
     name: "Pixie",
     "fav-activity": "Also being cute",
@@ -78,6 +85,7 @@ let animals = [
   },
 
   {
+    id: 8,
     species: "goat",
     name: "Tailor swyft",
     "fav-activity": "Listening to Spotify",
