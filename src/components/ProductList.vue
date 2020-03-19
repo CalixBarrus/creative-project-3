@@ -5,17 +5,13 @@
       <div class="product" v-for="product in products" :key="product.id">
         <div class="product-header">
           <h2>{{product.name}}</h2>
-          <p>{{product.species}}</p>
+          <p>${{product.price}}</p>
         </div>
         <div class="image">
           <img :src="'/images/products/'+product.image">
         </div>
         <div class="product-profile">
-          <p>Weight: {{product.weight}}</p>
-          <p>Height: {{product.height}}</p>
-          <p>Favorite Activity: {{product["fav-activity"]}}</p>
-          <p>Favorite Food: {{product["fav-food"]}}</p>
-          <p>Catchphrase: {{product.catchphrase}}</p>
+          <p>Quantity in stock: {{product.stock}}</p>
           <!-- <button class="favorite-button" @click="toggleFavorite(animal)" ><i :class={ far: animal.isFavorite, fas: !animal.isFavorite, 'fa-heart': true }></i></button> -->
         </div>
       </div>
@@ -56,14 +52,14 @@ export default {
   justify-content: center;
 }
 
-.animals {
+.products {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.animal {
+.product {
   margin: 10px;
   margin-top: 50px;
   max-width: 450px;
@@ -71,6 +67,7 @@ export default {
 
 .image img {
   max-height: 300px;
+  max-width: 450px;
 }
 
 </style>

@@ -8,14 +8,14 @@ let products = [{
   {
     id: 2,
     name: "Milk",
-    price: 2,
+    price: 2.00,
     stock: "57 gallons",
     image: "milk.png"
   },
   {
     id: 3,
     name: "Wool",
-    price: 10,
+    price: 10.00,
     stock: "27 lbs",
     image: "wool.png"
   },
@@ -50,7 +50,7 @@ let products = [{
   {
     id: 8,
     name: "Stray kitten",
-    price: 0,
+    price: 0.00,
     stock: "8 kittens",
     image: "kitten.png"
   },
