@@ -1,6 +1,6 @@
 <template>
 
-  <AnimalList :animals="$root.$data.animals"/>
+  <AnimalList :animals="arrayOfAnimals"/>
 
 
 </template>
@@ -11,6 +11,11 @@ export default {
   name: "Animals",
   components: {
     AnimalList
+  },
+  computed: {
+    arrayOfAnimals() {
+      return this.$root.$data.animals;
+    }
   },
 };
 </script>
