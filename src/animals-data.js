@@ -9,7 +9,8 @@ let animals = [
     height: "5 feet",
     "fav-food": "grass",
     catchphrase: "\"I'm fat and I'm happy!\"",
-    image: "cow.png"
+    image: "cow.png",
+    isFavorite: false
   },
 
   {
@@ -21,7 +22,8 @@ let animals = [
     height: "7 attoparsecs",
     "fav-food": "Beef pot pie",
     catchphrase: "I don't want to be a pie, I don't like gravy!",
-    image: "chicken.png"
+    image: "chicken.png",
+    isFavorite: false
   },
 
   {
@@ -33,7 +35,8 @@ let animals = [
     height: "20 hand-spans",
     "fav-food": "Viking",
     catchphrase: "The mark of a true leader is being a good follower",
-    image: "sheep.jpg"
+    image: "sheep.png",
+    isFavorite: false
   },
 
   {
@@ -45,7 +48,8 @@ let animals = [
     height: "About \"this\" big",
     "fav-food": "Apples",
     catchphrase: "He sure didn't pass...",
-    image: "horse.png"
+    image: "horse.png",
+    isFavorite: false
   },
 
   {
@@ -57,7 +61,8 @@ let animals = [
     height: "3.5 feet",
     "fav-food": "bacon",
     catchphrase: "Always take quantity over quality.",
-    image: "pig.jpeg"
+    image: "pig.png",
+    isFavorite: false
   },
 
   {
@@ -69,7 +74,8 @@ let animals = [
     height: "2.5 feet",
     "fav-food": "treat!?",
     catchphrase: "I'm a pirahna",
-    image: "dog.jpg"
+    image: "dog.png",
+    isFavorite: false
   },
 
   {
@@ -81,7 +87,8 @@ let animals = [
     height: "lap-size",
     "fav-food": "Chipmunks",
     catchphrase: "I hate Mondays...",
-    image: "cat.jpeg"
+    image: "cat.png",
+    isFavorite: false
   },
 
   {
@@ -93,9 +100,10 @@ let animals = [
     height: "1.5 ft",
     "fav-food": "Furniture",
     catchphrase: "We are never getting back together.",
-    image: "goat.png"
+    image: "goat.png",
+    isFavorite: false
   },
 
 ]
 
-export default animals;
+export default animals

@@ -23,7 +23,8 @@
 
     <div class="spacer"></div>
     <div class="footer">
-      <a href="https://github.com/CalixBarrus/creative-project-3" target="_blank" class="fa fa-github"></a>
+
+      <a href="https://github.com/CalixBarrus/creative-project-3" target="_blank"><i class="fab fa-github-square"></i></a>
     </div>
 
 
@@ -62,18 +63,18 @@
     text-align: center;
   }
 
-  .fa {
+  .fab {
     padding: 8px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
   }
 
-  .fa:hover {
+  .fab:hover {
     opacity: 0.7;
   }
 
-  .fa-github {
+  .fa-github-square {
     color: black;
   }
 

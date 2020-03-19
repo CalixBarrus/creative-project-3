@@ -17,7 +17,7 @@
           <p>Favorite Activity: {{animal["fav-activity"]}}</p>
           <p>Favorite Food: {{animal["fav-food"]}}</p>
           <p>Catchphrase: {{animal.catchphrase}}</p>
-          <!-- <button class="auto" @click="addToCart(animal)" >Add to Cart</button> -->
+          <!-- <button class="favorite-button" @click="toggleFavorite(animal)" ><i :class={ far: animal.isFavorite, fas: !animal.isFavorite, 'fa-heart': true }></i></button> -->
         </div>
       </div>
     </div>
@@ -31,7 +31,21 @@ export default {
   name: "AnimalList",
   props: {
     animals: Array,
-  }
+  },
+  methods: {
+    // toggleFavorite(animal) {
+      // Do stuff
+    }
+  },
+  // computed: {
+    // iconClass: () => {
+    //   return {
+    //     far: this.$root.$data.favorites.find(animal.name), // Regular
+    //     fas: !this.$root.$data.favorites.find(animal.name), // Solid
+    //     'fa-heart': true
+    //   }
+    // }
+  // },
 };
 </script>
 
