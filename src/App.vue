@@ -11,16 +11,22 @@
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link">Animals</router-link>
+            <router-link to="/animals" class="nav-link">Animals</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link">Store</router-link>
+            <router-link to="/store" class="nav-link">Store</router-link>
           </li>
         </ul>
       </div>
     </nav>
     <router-view />
-    <div id="footer"></div>
+
+    <div class="spacer"></div>
+    <div class="footer">
+      <a href="https://github.com/CalixBarrus/creative-project-3" target="_blank" class="fa fa-github"></a>
+    </div>
+
+
   </div>
 </template>
 
@@ -45,4 +51,34 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-github {
+    color: black;
+  }
+
+  .spacer {
+    margin-top: 46px;
+  }
+
 </style>
