@@ -2,6 +2,7 @@
 
 
   <div class="wrapper">
+    <h1>Animal for loop right here</h1>
     <div class="animals">
       <div class="animal" v-for="animal in animals" :key="animal.id">
         <div class="animal-header">

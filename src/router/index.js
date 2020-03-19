@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Animals from "../views/Animals.vue";
+import animals from "../animals-data.js";
 
 Vue.use(VueRouter);
 
@@ -14,7 +15,8 @@ const routes = [{
   {
     path: "/animals",
     name: "Animals",
-    component: Animals
+    component: Animals,
+    props: animals,
   },
 
 ];
