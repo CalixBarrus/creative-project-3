@@ -1,6 +1,11 @@
 <template>
 
-  <AnimalList :animals="arrayOfAnimals"/>
+  <div>
+      <h1>Meet the farm's animals!</h1>
+
+      <AnimalList :animals="arrayOfAnimals"/>
+
+  </div>
 
 
 </template>
