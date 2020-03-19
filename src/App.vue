@@ -24,7 +24,7 @@
     <div class="spacer"></div>
     <div class="footer">
 
-      <a href="https://github.com/CalixBarrus/creative-project-3" target="_blank"><i class="fab fa-github-square"></i></a>
+      <a href="https://github.com/CalixBarrus/creative-project-3" target="_blank"><i class="fab fa-github-square"></i>Calix Barrus and Cassidy Waldrip</a>
     </div>
 
 
@@ -81,5 +81,25 @@
   .spacer {
     margin-top: 46px;
   }
+
+  h1 {
+    margin-top: 20px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    }
+
+    /* Tablet Styles */
+    @media only screen and (min-width: 401px) and (max-width: 960px) {
+    }
+
+    /* Desktop Styles */
+    @media only screen and (min-width: 961px) {
+      body {
+          width: 960px;
+          margin: 0 auto;
+      }
+    }
 
 </style>
