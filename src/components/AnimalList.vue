@@ -35,7 +35,7 @@ export default {
   methods: {
     // toggleFavorite(animal) {
       // Do stuff
-    }
+    // }
   },
   // computed: {
     // iconClass: () => {
