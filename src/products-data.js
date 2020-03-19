@@ -9,55 +9,55 @@ let products = [
     name: "Milk",
     price: 2,
     stock: "57 gallons",
-    image: "eggs.png"
+    image: "milk.png"
   },
   {
     name: "Wool",
     price: 10,
     stock: "27 lbs",
-    image: "eggs.png"
+    image: "wool.png"
   },
   {
     name: "Cheese",
     price: 5.50,
     stock: "24 lbs",
-    image: "eggs.png"
+    image: "cheese.png"
   },
   {
     name: "Ice cream",
     price: 4.50,
     stock: "16 liters",
-    image: "eggs.png"
+    image: "ice-cream.png"
   },
   {
     name: "Beef jerky",
     price: 8.75,
     stock: "30 lbs",
-    image: "eggs.png"
+    image: "jerky.png"
   },
   {
     name: "Bacon",
     price: 4.25,
     stock: "46 lbs",
-    image: "eggs.png"
+    image: "bacon.png"
   },
   {
     name: "Stray kitten",
     price: 0,
     stock: "8 kittens",
-    image: "eggs.png"
+    image: "kitten.png"
   },
   {
     name: "Goat cheese",
     price: 6.25,
     stock: "13 lbs",
-    image: "eggs.png"
+    image: "goat-cheese.png"
   },
   {
     name: "Chicken nuggets",
     price: 5.50,
     stock: "32 lbs",
-    image: "eggs.png"
+    image: "nuggets.png"
   }
 ]
 
