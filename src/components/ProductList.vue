@@ -1,21 +1,17 @@
 <template>
   <div>
   <div class="wrapper">
-    <div class="animals">
-      <div class="animal" v-for="animal in animals" :key="animal.id">
-        <div class="animal-header">
-          <h2>{{animal.name}}</h2>
-          <p>{{animal.species}}</p>
+    <div class="products">
+      <div class="product" v-for="product in products" :key="product.id">
+        <div class="product-header">
+          <h2>{{product.name}}</h2>
+          <p>${{product.price}}</p>
         </div>
         <div class="image">
-          <img :src="'/images/animals/'+animal.image">
+          <img :src="'/images/products/'+product.image">
         </div>
-        <div class="animal-profile">
-          <p>Weight: {{animal.weight}}</p>
-          <p>Height: {{animal.height}}</p>
-          <p>Favorite Activity: {{animal["fav-activity"]}}</p>
-          <p>Favorite Food: {{animal["fav-food"]}}</p>
-          <p>Catchphrase: {{animal.catchphrase}}</p>
+        <div class="product-profile">
+          <p>Quantity in stock: {{product.stock}}</p>
           <!-- <button class="favorite-button" @click="toggleFavorite(animal)" ><i :class={ far: animal.isFavorite, fas: !animal.isFavorite, 'fa-heart': true }></i></button> -->
         </div>
       </div>
@@ -27,9 +23,9 @@
 
 <script>
 export default {
-  name: "AnimalList",
+  name: "ProductList",
   props: {
-    animals: Array,
+    products: Array,
   },
   methods: {
     // toggleFavorite(animal) {
@@ -56,14 +52,14 @@ export default {
   justify-content: center;
 }
 
-.animals {
+.products {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.animal {
+.product {
   margin: 10px;
   margin-top: 50px;
   max-width: 450px;
@@ -71,6 +67,7 @@ export default {
 
 .image img {
   max-height: 300px;
+  max-width: 450px;
 }
 
 </style>
