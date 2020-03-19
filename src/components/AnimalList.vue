@@ -1,25 +1,28 @@
 <template>
-
-
+  <div>
+  <h1>Meet the farm's animals!</h1>
   <div class="wrapper">
-    <h1>Animal for loop right here</h1>
     <div class="animals">
       <div class="animal" v-for="animal in animals" :key="animal.id">
         <div class="animal-header">
-          <h1>{{animal.name}}</h1>
+          <h2>{{animal.name}}</h2>
           <p>{{animal.species}}</p>
         </div>
         <div class="image">
           <img :src="'/images/animals/'+animal.image">
         </div>
         <div class="animal-profile">
-          <h2>{{animal.catchphrase}}</h2>
+          <p>Weight: {{animal.weight}}</p>
+          <p>Height: {{animal.height}}</p>
+          <p>Favorite Activity: {{animal["fav-activity"]}}</p>
+          <p>Favorite Food: {{animal["fav-food"]}}</p>
+          <p>Catchphrase: {{animal.catchphrase}}</p>
           <!-- <button class="auto" @click="addToCart(animal)" >Add to Cart</button> -->
         </div>
       </div>
     </div>
   </div>
-
+</div>
 
 </template>
 
@@ -31,3 +34,30 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animals {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.animal {
+  margin: 10px;
+  margin-top: 50px;
+  max-width: 450px;
+}
+
+.image img {
+  max-height: 300px;
+}
+
+</style>

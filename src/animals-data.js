@@ -9,7 +9,7 @@ let animals = [
     height: "5 feet",
     "fav-food": "grass",
     catchphrase: "\"I'm fat and I'm happy!\"",
-    image: "cow.jpeg"
+    image: "cow.png"
   },
 
   {
